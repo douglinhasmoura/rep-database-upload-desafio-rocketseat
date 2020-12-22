@@ -20,6 +20,10 @@ export class CreateTransaction1608343826386 implements MigrationInterface {
                         isNullable: true
                     },
                     {
+                        name: 'type',
+                        type: 'varchar',
+                    },
+                    {
                         name: 'value',
                         type: 'decimal',
                         precision: 10,
